@@ -1,0 +1,27 @@
+public class T2Main {
+    private String nama;
+    private int harga;
+    private String kategori;
+
+    public T2Main(String nama, int harga, String kategori) {
+        this.nama = nama;
+        this.harga = harga;
+        this.kategori = kategori;
+    }
+
+    public String getnama() {
+        return nama;
+    }
+
+    public int getharga() {
+        return harga;
+    }
+
+    public String getkategori() {
+        return kategori;
+    }
+
+    public void setharga(int harga) {
+        this.harga = harga;
+    }
+}
